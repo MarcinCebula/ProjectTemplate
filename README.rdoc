@@ -1,3 +1,1 @@
-Feature-v0.1.0
-	Setup Devise with 'admin' user
-	devise :database_authenticatable, :trackable, :timeoutable, :lockable
+Rails and Ember.js version of Twitter Public Timeline
