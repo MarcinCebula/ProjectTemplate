@@ -1,4 +1,4 @@
-SimplePublicTimeline::Application.routes.draw do
+GenericRailsProject::Application.routes.draw do
  
 
   namespace :api do
@@ -11,9 +11,7 @@ SimplePublicTimeline::Application.routes.draw do
   
   
   resources :docs, :only => [:index]
-  resources :tweets, :only => [:index]
-  get 'tweets/via_js'
 
-  root :to => 'tweets#index'
+  root :to => 'docs#index'
 
 end

@@ -1,0 +1,1 @@
+.rvmrc needs a gemset name

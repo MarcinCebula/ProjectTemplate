@@ -5,5 +5,5 @@
 # import 'lib/tasks/jasmine.rake'
 require File.expand_path('../config/application', __FILE__)
 
-SimplePublicTimeline::Application.load_tasks
+GenericRailsProject::Application.load_tasks
 

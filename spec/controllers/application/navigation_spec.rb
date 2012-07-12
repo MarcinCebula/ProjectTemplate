@@ -27,7 +27,7 @@ require 'capybara/rspec'
 #     it 'should link back to root_path and check that only its tab is active' do
 #       visit '/docs'
 #       within '.navbar' do
-#         click_link('SimplePublicTimeline')
+#         click_link('GenericRailsProject')
 #         current_path.should eq '/'
 #       end
 #       page.has_css?('li.active', :text => 'Home').should be_true

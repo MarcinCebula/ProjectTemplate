@@ -1,2 +1,0 @@
-describe TweetsController do
-end

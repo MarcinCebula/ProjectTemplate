@@ -21,7 +21,7 @@ describe 'POST /api/v1/projects', :type => :api do
 	    @example.name.should eq "Generic Example"
 	    @example.user.should eq "user1"
       @example.description.should eq "Generic Example, tests for issues that may be caused by the testing framework and its componenets"
-      @example.project.should eq "SimplePublicTimeline"
+      @example.project.should eq "GenericRailsProject"
       @example.revision.should eq 1
       @example.email.should eq "#{@example.user}@gmail.com"
 
